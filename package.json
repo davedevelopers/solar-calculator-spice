@@ -1,0 +1,53 @@
+{
+  "name": "solar-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volleio/solar-calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/volleio/solar-calculator/issues"
+  },
+  "homepage": "https://github.com/volleio/solar-calculator#readme",
+  "dependencies": {
+    "@mapbox/mapbox-gl-draw": "^1.1.2",
+    "@mapbox/mapbox-gl-draw-static-mode": "^1.0.1",
+    "@mapbox/mapbox-gl-geocoder": "^4.5.1",
+    "@turf/area": "^6.0.1",
+    "@turf/centroid": "^6.0.2",
+    "@turf/turf": "^5.1.6",
+    "@types/request-promise-native": "^1.0.17",
+    "@zeit/next-css": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "mapbox-gl": "^1.7.0",
+    "next": "^9.2.1",
+    "next-compose": "0.0.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.8",
+    "typescript": "^3.7.5",
+    "uninstall": "0.0.0"
+  },
+  "devDependencies": {
+    "@types/mapbox-gl": "^1.7.0",
+    "@types/node": "^13.7.1",
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "@types/styled-jsx": "^2.2.8",
+    "tslint": "^6.0.0",
+    "tslint-config-airbnb": "^5.11.2",
+    "tslint-eslint-rules": "^5.4.0"
+  }
+}
